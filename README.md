@@ -67,7 +67,7 @@ Each Jupter notebook for this project aimed at investigating specific aspects of
 To find the most demanded skills for the top 3 most popular data roles, I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
 View my notebook with detailed steps here:
-[2_Skill_Demand](./2_Skills_Count.ipynb).
+[2_Skill_Demand](3_Project/2_Skills_Count.ipynb).
 
 ### Visualise Data
 ````python 
@@ -82,7 +82,7 @@ plt.show()
 
 ### Results
 
-![Visualisation of Top Skills](./Images/skill_demand_all_data_roles.png)
+![Visualisation of Top Skills](3_Project/Images/skill_demand_all_data_roles.png)
 
 ### Insights
 
@@ -95,7 +95,7 @@ plt.show()
 
 To find how skills are trending in 2023 for Data Analysts, I fitered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
-View my notebook with detailed steps here: [3_Skills_Trend](./3_Skills_Trend.ipynb). 
+View my notebook with detailed steps here: [3_Skills_Trend](3_Project/3_Skills_Trend.ipynb). 
 
 ### Visualise Data
 
@@ -114,7 +114,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills](./Images/skill_trend_DA.png)
+![Trending Top Skills](3_Project/Images/skill_trend_DA.png)
 *Bar graph visualising the trending top skills for data analysts in Ireland in 2023.*
 
 ### Insights
@@ -127,7 +127,7 @@ plt.show()
 
 To identify the highest-paying roles and skills, I only got jobs in Ireland and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs aer paid the most. 
 
-View my notebook with detailed steps here: [4_Salary_Analysis](./4_Salary_Analysis.ipynb).
+View my notebook with detailed steps here: [4_Salary_Analysis](3_Project/4_Salary_Analysis.ipynb).
 
 #### Visualise Data
 
@@ -143,7 +143,7 @@ plt.show()
 
 #### Results
 
-![Salary Distributions of Data Jobs in Ireland](./Images/salary_boxplot.png)
+![Salary Distributions of Data Jobs in Ireland](3_Project/Images/salary_boxplot.png)
 *Box plot visualising the salary distributions for the top 6 data job titles.*
 
 #### Insights
@@ -174,7 +174,7 @@ plt.show()
 #### Results
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in Ireland:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in Ireland](./Images/highest_paid_and_most_in_demand_skills_for_data_analysts_in_ireland.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in Ireland](3_Project/Images/skill_demand_all_data_roles.png)
 *Two separate bar graphs visualising the highest paid skills and most in-demand skills for data analysts in Ireland.*
 
 #### Insights
@@ -190,7 +190,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
 To identify the most optimal skills to learn (the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal to learn.
 
-View my notebook with detailed steps here: [5_Optimal_Skills](./5_Optimal_Skills.ipynb). 
+View my notebook with detailed steps here: [5_Optimal_Skills](3_Project/5_Optimal_Skills.ipynb). 
 
 #### Visualise Data
 
@@ -203,7 +203,7 @@ plt.show()
 ```
 
 #### Results
-![Most Optimal Skills for Data Analysts in Ireland](./Images/most_optimal_skills_for_data_analysts_in_ireland.png)
+![Most Optimal Skills for Data Analysts in Ireland](3_Project/Images/most_optimal_skills_for_data_analysts_in_ireland.png)
 
 #### Insights
 - The skill `snowflake` appears to have the highest mean salary of nearly €150K, despite being less common in job postings. This suggests a high value placed on specialised database skills within the data analyst profession.
@@ -234,7 +234,7 @@ plt.show()
 ```
 
 #### Results
-![Most Optimal Skills for Data Analysts in Ireland With Labels](./Images/most_optimal_skills_for_data_analysts_in_ireland_with_colouring_by_technology.png)
+![Most Optimal Skills for Data Analysts in Ireland With Labels](3_Project/Images/most_optimal_skills_for_data_analysts_in_ireland_with_colouring_by_technology.png)
 *A scatter plot visualising the most optimal skills (high paying & high demand) for data analysts in Ireland.*
 
 #### Insights
